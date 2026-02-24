@@ -52,8 +52,8 @@ lib/
 ### Setup
 
 ```bash
-git clone <repo-url>
-cd flutter_ecommerce_showcase
+git clone https://github.com/HiraAdnan/-Flutter-E-Commerce-App.git
+cd -Flutter-E-Commerce-App
 flutter pub get
 ```
 
