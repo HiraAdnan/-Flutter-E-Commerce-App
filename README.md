@@ -2,6 +2,20 @@
 
 A feature-complete e-commerce demo app built with **Flutter 3.24+**, **Riverpod**, **GoRouter**, and **Material 3**. Demonstrates production-ready architecture patterns suitable for portfolio or interview presentation.
 
+## Screenshots
+
+| Splash | Login | Home |
+|:---:|:---:|:---:|
+| ![Splash](screenshots/splash.png) | ![Login](screenshots/login.png) | ![Home](screenshots/home.png) |
+
+| Products | Product Detail | Cart |
+|:---:|:---:|:---:|
+| ![Products](screenshots/products.png) | ![Product Detail](screenshots/product_detail.png) | ![Cart](screenshots/cart.png) |
+
+| Orders | Profile |
+|:---:|:---:|
+| ![Orders](screenshots/orders.png) | ![Profile](screenshots/profile.png) |
+
 ## Features
 
 - **Authentication** — Login, registration, and forgot password flows with auth guard
