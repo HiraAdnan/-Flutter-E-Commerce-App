@@ -16,6 +16,10 @@ void main() {
     await tester.pumpWidget(
       const ProviderScope(child: ShopEaseApp()),
     );
+
+    // Pump past the splash screen's Future.delayed(2500ms) timer
+    // so no timers are pending when the test ends
+    await tester.pump(const Duration(seconds: 3));
     await tester.pumpAndSettle();
 
     // App should render the login screen (user not authenticated)
